@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>DOMOTICA</title>
+	    <!-- Latest compiled and minified CSS - add here as needed -->
+	</head>
+	<body style="background-color:Tomato;">
+	    <!-- HTML to display MQTT topic values ------------------------------------------------->
+		<center><h1><div><strong>Universidad Nacional de Chimborazo </strong></div><br></h1>
+		<h2>Facultad de Ingenieria</h2>
+		<h2>SISTEMAS EMBEBIDOS</h2>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js" type="text/javascript"></script>
+		<script src="script.js"></script>
+		<button id="led_on" onclick="ledon()">LED ON</button>
+		<button id="led_off" onclick="ledoff()">LED OF</button></center>
+		
+		
+		<h1>SENSOR DE CONTACTO UNO</h1>
+		<h1 id="sensor_i">0</h1>
+		
+		<h1>SENSOR DE CONTACTO DOS</h1>
+		<h1 id="sensor_p">0</h1>
+		
+		<!-- mosquitto MQTT -------------------------------------------------------------------->
+		
+		<!-- jQuery ---------------------------------------------------------------------------->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		
+		<!-- Custom MQTT client for this example ----------------------------------------------->
+		
+	
+	</body>
+</html>
